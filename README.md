@@ -1,7 +1,7 @@
-<!-- 系統執行資訊 -->
-1. move in DBFinalProject directory and run "python3 routes.py"
-2. if there are module not found,create the environment and install them by "pip3 install flask..."
-3. we test the code on postman
+
+## Implementation
+### User
+https://youtu.be/KDSdgODHUDw
 
 <!-- 資料庫設計 -->
 ## 資料庫設計之資料表如下：
@@ -38,3 +38,8 @@
 1. 沒有檢查期限相關資訊
 2. try catch 沒處理好，但不影響實際操作。
 3. 回傳資訊有些會包含foreign key，應該統整一下code 統一每個 route 下的回傳資料
+
+## Run in local
+1. move in DBFinalProject directory and run "python3 routes.py"
+2. if there are module not found,create the environment and install them by "pip3 install flask..."
+3. we test the code on postman
