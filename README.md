@@ -1,11 +1,4 @@
-<!-- 系統執行資訊 -->
-1. move in DBFinalProject directory and run "python3 routes.py"
-2. if there are module not found,create the environment and install them by "pip3 install flask..."
-3. we test the code on postman
-
-<!-- 資料庫設計 -->
-## 資料庫設計之資料表如下：
-
+## 資料庫設計
 1. activity
 * 符合題目需求設計活動之id,name,scope,type,value,available,startAt,endAt,productId,sellerId
 
@@ -34,7 +27,14 @@
 *  考慮資料庫之合理性，特別設計了一個items的資料表，當中記錄id,productId,amount，id為各別購買項目和購買數量的特定編號
 
 
-<!-- 待優化項目 -->
+## 待優化項目
 1. 沒有檢查期限相關資訊
 2. try catch 沒處理好，但不影響實際操作。
 3. 回傳資訊有些會包含foreign key，應該統整一下code 統一每個 route 下的回傳資料
+4. frontend implementation, deployment
+5. XSS risk prevention
+
+## Run in local
+1. move in DBFinalProject directory and run "python3 routes.py"
+2. if there are module not found,create the environment and install them by "pip3 install flask..."
+3. we test the code on postman
